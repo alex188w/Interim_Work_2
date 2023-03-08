@@ -89,8 +89,7 @@ public class ToysShop implements Iterable<ToyModel> {
                     name = t.getName();
                     weight = t.getWeight();
                     changeToyPrize(toysShop, t);
-                } else return null;
-                
+                } else return null;                
             }
         }
         ToyModel prizeToy = new ToyModel(prizeId, name, count, weight);
